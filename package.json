@@ -1,0 +1,20 @@
+{
+  "name": "hello-gpg",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build --compile index.ts --outfile=hello-gpg.exe"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@inquirer/password": "^2.1.22",
+    "node-ms-passport": "^1.2.9",
+    "passport-desktop": "^0.1.2"
+  }
+}
